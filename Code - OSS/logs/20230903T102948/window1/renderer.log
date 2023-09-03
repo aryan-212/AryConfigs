@@ -1,0 +1,2 @@
+2023-09-03 10:29:49.951 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/etc/pulse/default.pa","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-03 10:29:53.729 [info] [perf] Render performance baseline is 59ms

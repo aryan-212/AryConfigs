@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <script>
+        function init(){
+            var p1=document.querySelector("input");
+            i1.onchange=(event)=>{
+                document.querySelector("div").innerHTML = event.target.value;
+            }
+            i1.onfocus=showtip;
+            i1.onblur=hidetip;
+        }
+        function showtip(){
+            
+        }
+    </script>
+
+</head>
+<body onlaod="init()">
+    <h1 id=hd>My Paragraph</h1>
+    <p>Para 1</p>
+    <p>Para 2</p>
+</body>z
+
+</html>

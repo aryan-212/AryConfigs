@@ -1,0 +1,3 @@
+2023-09-03 10:29:05.713 [info] Extension host with pid 18228 started
+2023-09-03 10:29:05.716 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-03 10:29:05.718 [info] Extension host with pid 18228 exiting with code 0

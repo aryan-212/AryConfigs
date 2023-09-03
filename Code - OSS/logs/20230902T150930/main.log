@@ -1,0 +1,4 @@
+2023-09-02 15:09:30.178 [info] update#setState disabled
+2023-09-02 15:09:30.184 [info] update#ctor - updates are disabled as there is no update URL
+2023-09-02 15:09:41.813 [info] Extension host with pid 10792 exited with code: 0, signal: unknown.
+2023-09-02 15:11:00.065 [info] Extension host with pid 10791 exited with code: 0, signal: unknown.

@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Flatland Dark",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 6,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 4,
+    "editor.cursorSmoothCaretAnimation": "on"
+}

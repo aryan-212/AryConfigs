@@ -1,0 +1,94 @@
+{
+   "checksum": "b4fe8fc54de271cd86df1b6d697220c3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13337869641000000",
+            "date_last_used": "0",
+            "guid": "bd20e3b3-08ea-4058-830a-5af01d3dfa92",
+            "id": "5",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/firefox/?utm_medium=firefox-desktop&utm_source=bookmarks-toolbar&utm_campaign=new-users&utm_content=-global"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13337869641000000",
+                  "date_last_used": "0",
+                  "guid": "778553b9-e337-4c13-be6e-e21795cb30a2",
+                  "id": "8",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/products/firefox"
+               }, {
+                  "date_added": "13337869641000000",
+                  "date_last_used": "0",
+                  "guid": "76d18b7c-63e5-44fb-804c-5593faa43606",
+                  "id": "9",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13337869641000000",
+                  "date_last_used": "0",
+                  "guid": "264b9474-6bd7-4414-b573-5032258a4434",
+                  "id": "10",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/contribute/"
+               }, {
+                  "date_added": "13337869641000000",
+                  "date_last_used": "0",
+                  "guid": "f11e89ac-186e-4446-a377-3ee16af6c54e",
+                  "id": "11",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/about/"
+               } ],
+               "date_added": "13338106207821665",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "a22e037a-14e4-4d3d-ba47-41ad495a41c4",
+               "id": "7",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            } ],
+            "date_added": "13338106207821287",
+            "date_last_used": "0",
+            "date_modified": "13338106207821287",
+            "guid": "da15242d-44bd-4b44-933b-a2d50c72d7ef",
+            "id": "6",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         } ],
+         "date_added": "13338106195063682",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13338106195063868",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13338106195063870",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

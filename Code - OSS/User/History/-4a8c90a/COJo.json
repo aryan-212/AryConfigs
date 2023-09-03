@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Flatland Dark",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme"
+}
