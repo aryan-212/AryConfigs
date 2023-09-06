@@ -1,6 +1,5 @@
-2023/09/06-11:57:00.808 3 Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2023/09/06-11:57:00.810 3 Recovering log #62
-2023/09/06-11:57:00.811 3 Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000062.log 
-2023/09/06-11:58:05.214 5 Level-0 table #65: started
-2023/09/06-11:58:05.217 5 Level-0 table #65: 33785 bytes OK
-2023/09/06-11:58:05.219 5 Delete type=0 #62
+2023/09/06-12:04:52.807 3 Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/09/06-12:04:52.808 3 Recovering log #64
+2023/09/06-12:04:52.809 3 Level-0 table #67: started
+2023/09/06-12:04:52.812 3 Level-0 table #67: 19045 bytes OK
+2023/09/06-12:04:52.816 3 Delete type=0 #64
