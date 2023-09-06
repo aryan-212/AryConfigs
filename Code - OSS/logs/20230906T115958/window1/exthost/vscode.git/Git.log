@@ -86,3 +86,35 @@
 2023-09-06 12:03:04.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
 2023-09-06 12:03:04.461 [info] > git status -z -uall [135ms]
 2023-09-06 12:03:05.854 [info] > git check-ignore -v -z --stdin [97ms]
+2023-09-06 12:14:40.708 [info] > git config --get commit.template [3ms]
+2023-09-06 12:14:40.709 [info] > git config --get commit.template [13ms]
+2023-09-06 12:14:40.742 [info] > git ls-files --stage -- /home/aryan/Coding/Web Development/svg_elements.html [22ms]
+2023-09-06 12:14:40.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2023-09-06 12:14:40.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2023-09-06 12:14:40.775 [info] > git status -z -uall [12ms]
+2023-09-06 12:14:40.778 [info] > git cat-file -s 9db859658a423884ee379a165f3c2a57a8b89b04 [27ms]
+2023-09-06 12:14:40.797 [info] > git show --textconv :Web Development/svg_elements.html [2ms]
+2023-09-06 12:14:40.828 [info] > git status -z -uall [54ms]
+2023-09-06 12:14:40.912 [info] > git fetch [256ms]
+2023-09-06 12:14:40.912 [info] fatal: unable to access 'https://github.com/aryan-212/test-repo.git/': Could not resolve host: github.com
+2023-09-06 12:14:40.913 [info] > git fetch [242ms]
+2023-09-06 12:14:40.913 [info] fatal: unable to access 'https://github.com/aryan-212/AryConfigs.git/': Could not resolve host: github.com
+2023-09-06 12:14:40.914 [info] > git fetch [231ms]
+2023-09-06 12:14:40.914 [info] ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-09-06 12:14:40.966 [info] > git config --get commit.template [15ms]
+2023-09-06 12:14:40.966 [info] > git config --get commit.template [27ms]
+2023-09-06 12:14:40.967 [info] > git config --get commit.template [40ms]
+2023-09-06 12:14:41.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2023-09-06 12:14:41.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2023-09-06 12:14:41.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [42ms]
+2023-09-06 12:14:41.063 [info] > git status -z -uall [18ms]
+2023-09-06 12:14:41.068 [info] > git status -z -uall [7ms]
+2023-09-06 12:14:41.096 [info] > git status -z -uall [72ms]
+2023-09-06 12:14:41.789 [info] > git check-ignore -v -z --stdin [3ms]
+2023-09-06 12:14:42.869 [info] > git ls-files --stage -- /home/aryan/Coding/Web Development/svg_elements.html [3ms]
+2023-09-06 12:14:42.885 [info] > git cat-file -s 9db859658a423884ee379a165f3c2a57a8b89b04 [2ms]
+2023-09-06 12:14:42.930 [info] > git show --textconv :Web Development/svg_elements.html [3ms]

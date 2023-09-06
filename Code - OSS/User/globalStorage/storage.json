@@ -29,7 +29,7 @@
                 "mode": 1,
                 "x": 12,
                 "y": 52,
-                "width": 941,
+                "width": 1896,
                 "height": 1016
             }
         },
@@ -151,6 +151,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/aryan/.config/bspwm/picom.conf",
+                                        "path": "/home/aryan/.config/bspwm/picom.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/bspwm/picom.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/hivvv.c",
+                                        "path": "/home/aryan/hivvv.c",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/hivvv.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/aryan/.config/bspwm/bspwmrc",
                                         "path": "/home/aryan/.config/bspwm/bspwmrc",
                                         "scheme": "file"
@@ -234,28 +256,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Coding/UNIX Notes/UNIX_notes.txt"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aryan/README.md",
-                                        "path": "/home/aryan/README.md",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/README.md"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aryan/Hyprland/README.md",
-                                        "path": "/home/aryan/Hyprland/README.md",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Hyprland/README.md"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

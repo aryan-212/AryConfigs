@@ -1,0 +1,15 @@
+2023-09-06 12:47:40.212 [warning] Unable to find "$VIMRUNTIME/delmenu.vim" file for configuration.
+2023-09-06 12:47:40.217 [warning] Unable to find "$VIMRUNTIME/menu.vim" file for configuration.
+2023-09-06 12:47:40.253 [warning] Encountered an unrecognized mapping type: 'snor'
+2023-09-06 12:47:40.657 [info] Configuration changed
+2023-09-06 12:47:40.783 [warning] Unable to find "$VIMRUNTIME/delmenu.vim" file for configuration.
+2023-09-06 12:47:40.784 [warning] Unable to find "$VIMRUNTIME/menu.vim" file for configuration.
+2023-09-06 12:47:40.795 [warning] Encountered an unrecognized mapping type: 'snor'
+2023-09-06 12:47:46.317 [info] Active editor: file:///home/aryan/hivvv.c
+2023-09-06 12:47:47.319 [info] /home/aryan/hivvv.c closed
+2023-09-06 12:47:47.325 [info] Active editor: file:///home/aryan/Coding/Web%20Development/svg_elements.html
+2023-09-06 12:47:48.670 [info] Active editor: file:///home/aryan/Coding/Data%20Structures/Hackerrank/notes1.txt
+2023-09-06 12:47:49.312 [info] /home/aryan/Coding/Data Structures/Hackerrank/notes1.txt closed
+2023-09-06 12:47:49.312 [info] /home/aryan/Coding/Data Structures/Hackerrank/notes1.txt.git closed
+2023-09-06 12:47:49.319 [info] Active editor: file:///home/aryan/Coding/Web%20Development/svg_elements.html
+2023-09-06 12:49:20.019 [info] Active editor: file:///home/aryan/.config/bspwm/picom.conf

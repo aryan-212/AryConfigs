@@ -1,0 +1,23 @@
+2023-09-06 12:46:58.642 [info] Log level: Info
+2023-09-06 12:46:58.642 [info] Validating found git in: "git"
+2023-09-06 12:46:58.642 [info] Using git "2.42.0" from "git"
+2023-09-06 12:46:58.642 [info] > git rev-parse --show-toplevel [7ms]
+2023-09-06 12:46:58.643 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-09-06 12:46:58.667 [info] Open repository: /home/aryan/.config
+2023-09-06 12:46:58.709 [info] > git config --get commit.template [21ms]
+2023-09-06 12:46:58.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-06 12:46:58.954 [info] > git status -z -uall [214ms]
+2023-09-06 12:46:58.997 [info] > git config --get commit.template [6ms]
+2023-09-06 12:46:59.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-06 12:46:59.274 [info] > git status -z -uall [248ms]
+2023-09-06 12:46:59.274 [info] > git show --textconv :bspwm/picom.conf [105ms]
+2023-09-06 12:46:59.274 [info] > git check-ignore -v -z --stdin [81ms]
+2023-09-06 12:46:59.275 [info] > git ls-files --stage -- /home/aryan/.config/bspwm/picom.conf [95ms]
+2023-09-06 12:46:59.343 [info] > git cat-file -s 71112f25dd13815e2052322bc270abd04034575a [59ms]
+2023-09-06 12:46:59.922 [info] > git ls-files --stage -- /home/aryan/.config/bspwm/picom.conf [35ms]
+2023-09-06 12:46:59.933 [info] > git cat-file -s 71112f25dd13815e2052322bc270abd04034575a [2ms]
+2023-09-06 12:46:59.952 [info] > git show --textconv :bspwm/picom.conf [9ms]
+2023-09-06 12:47:00.375 [info] > git fetch [1708ms]
+2023-09-06 12:47:00.397 [info] > git config --get commit.template [11ms]
+2023-09-06 12:47:00.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-06 12:47:00.484 [info] > git status -z -uall [78ms]
