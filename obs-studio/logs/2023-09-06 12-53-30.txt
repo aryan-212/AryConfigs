@@ -1,0 +1,160 @@
+12:53:30.099: Using EGL/X11
+12:53:30.099: CPU Name: AMD Ryzen 7 5825U with Radeon Graphics
+12:53:30.099: CPU Speed: 1996.250MHz
+12:53:30.099: CPU Name: AMD Ryzen 7 5825U with Radeon Graphics
+12:53:30.099: CPU Speed: 1996.250MHz
+12:53:30.099: CPU Name: AMD Ryzen 7 5825U with Radeon Graphics
+12:53:30.099: CPU Speed: 1996.250MHz
+12:53:30.099: CPU Name: AMD Ryzen 7 5825U with Radeon Graphics
+12:53:30.099: CPU Speed: 1996.250MHz
+12:53:30.100: Physical Cores: 16, Logical Cores: 16
+12:53:30.100: Physical Memory: 10475MB Total, 7204MB Free
+12:53:30.100: Kernel Version: Linux 6.4.12-arch1-1
+12:53:30.100: Distribution: "Archcraft" Unknown
+12:53:30.100: Desktop Environment: 
+12:53:30.100: Session Type: x11
+12:53:30.100: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:53:30.103: Qt Version: 6.5.2 (runtime), 6.5.1 (compiled)
+12:53:30.103: Portable mode: false
+12:53:30.173: OBS 29.1.3-1 (linux)
+12:53:30.173: ---------------------------------
+12:53:30.174: ---------------------------------
+12:53:30.174: audio settings reset:
+12:53:30.174: 	samples per sec: 48000
+12:53:30.174: 	speakers:        2
+12:53:30.174: 	max buffering:   960 milliseconds
+12:53:30.174: 	buffering type:  dynamically increasing
+12:53:30.179: ---------------------------------
+12:53:30.179: Initializing OpenGL...
+12:53:30.225: Loading up OpenGL on adapter VMware, Inc. SVGA3D; build: RELEASE;  LLVM;
+12:53:30.225: OpenGL loaded successfully, version 4.3 (Core Profile) Mesa 23.1.6-arch1.4, shading language 4.30
+12:53:30.381: ---------------------------------
+12:53:30.381: video settings reset:
+12:53:30.381: 	base resolution:   1920x1080
+12:53:30.381: 	output resolution: 1280x720
+12:53:30.381: 	downscale filter:  Bicubic
+12:53:30.381: 	fps:               60/1
+12:53:30.381: 	format:            NV12
+12:53:30.381: 	YUV mode:          Rec. 709/Partial
+12:53:30.382: NV12 texture support not available
+12:53:30.382: P010 texture support not available
+12:53:30.383: Audio monitoring device:
+12:53:30.383: 	name: Default
+12:53:30.383: 	id: default
+12:53:30.383: ---------------------------------
+12:53:30.396: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:53:30.407: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:53:30.419: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:53:30.419: Failed to initialize module 'decklink.so'
+12:53:55.600: [portals] Error retrieving D-Bus proxy: Error calling StartServiceByName for org.freedesktop.portal.Desktop: Timeout was reached
+12:53:55.600: [pipewire] No captures available
+12:53:55.605: os_dlopen(/usr//lib/obs-plugins/linux-pulseaudio.so->/usr//lib/obs-plugins/linux-pulseaudio.so): /usr//lib/obs-plugins/linux-pulseaudio.so: cannot open shared object file: No such file or directory
+12:53:55.605: 
+12:53:55.607: os_dlopen(/usr//lib/obs-plugins/linux-pulseaudio.so->/usr//lib/obs-plugins/linux-pulseaudio.so): /usr//lib/obs-plugins/linux-pulseaudio.so: cannot open shared object file: No such file or directory
+12:53:55.607: 
+12:53:55.607: Module '/usr//lib/obs-plugins/linux-pulseaudio.so' not loaded
+12:53:55.611: os_dlopen(/usr//lib/obs-plugins/linux-v4l2.so->/usr//lib/obs-plugins/linux-v4l2.so): /usr//lib/obs-plugins/linux-v4l2.so: cannot open shared object file: No such file or directory
+12:53:55.611: 
+12:53:55.613: os_dlopen(/usr//lib/obs-plugins/linux-v4l2.so->/usr//lib/obs-plugins/linux-v4l2.so): /usr//lib/obs-plugins/linux-v4l2.so: cannot open shared object file: No such file or directory
+12:53:55.613: 
+12:53:55.613: Module '/usr//lib/obs-plugins/linux-v4l2.so' not loaded
+12:53:55.617: os_dlopen(/usr//lib/obs-plugins/obs-ffmpeg.so->/usr//lib/obs-plugins/obs-ffmpeg.so): /usr//lib/obs-plugins/obs-ffmpeg.so: cannot open shared object file: No such file or directory
+12:53:55.617: 
+12:53:55.619: os_dlopen(/usr//lib/obs-plugins/obs-ffmpeg.so->/usr//lib/obs-plugins/obs-ffmpeg.so): /usr//lib/obs-plugins/obs-ffmpeg.so: cannot open shared object file: No such file or directory
+12:53:55.619: 
+12:53:55.620: Module '/usr//lib/obs-plugins/obs-ffmpeg.so' not loaded
+12:53:55.623: os_dlopen(/usr//lib/obs-plugins/obs-filters.so->/usr//lib/obs-plugins/obs-filters.so): /usr//lib/obs-plugins/obs-filters.so: cannot open shared object file: No such file or directory
+12:53:55.623: 
+12:53:55.626: os_dlopen(/usr//lib/obs-plugins/obs-filters.so->/usr//lib/obs-plugins/obs-filters.so): /usr//lib/obs-plugins/obs-filters.so: cannot open shared object file: No such file or directory
+12:53:55.626: 
+12:53:55.626: Module '/usr//lib/obs-plugins/obs-filters.so' not loaded
+12:53:55.630: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): /usr//lib/obs-plugins/obs-libfdk.so: cannot open shared object file: No such file or directory
+12:53:55.630: 
+12:53:55.632: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): /usr//lib/obs-plugins/obs-libfdk.so: cannot open shared object file: No such file or directory
+12:53:55.632: 
+12:53:55.632: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+12:53:55.636: os_dlopen(/usr//lib/obs-plugins/obs-outputs.so->/usr//lib/obs-plugins/obs-outputs.so): /usr//lib/obs-plugins/obs-outputs.so: cannot open shared object file: No such file or directory
+12:53:55.636: 
+12:53:55.638: os_dlopen(/usr//lib/obs-plugins/obs-outputs.so->/usr//lib/obs-plugins/obs-outputs.so): /usr//lib/obs-plugins/obs-outputs.so: cannot open shared object file: No such file or directory
+12:53:55.638: 
+12:53:55.638: Module '/usr//lib/obs-plugins/obs-outputs.so' not loaded
+12:53:55.642: os_dlopen(/usr//lib/obs-plugins/obs-transitions.so->/usr//lib/obs-plugins/obs-transitions.so): /usr//lib/obs-plugins/obs-transitions.so: cannot open shared object file: No such file or directory
+12:53:55.642: 
+12:53:55.644: os_dlopen(/usr//lib/obs-plugins/obs-transitions.so->/usr//lib/obs-plugins/obs-transitions.so): /usr//lib/obs-plugins/obs-transitions.so: cannot open shared object file: No such file or directory
+12:53:55.644: 
+12:53:55.644: Module '/usr//lib/obs-plugins/obs-transitions.so' not loaded
+12:53:55.647: os_dlopen(/usr//lib/obs-plugins/obs-vst.so->/usr//lib/obs-plugins/obs-vst.so): /usr//lib/obs-plugins/obs-vst.so: cannot open shared object file: No such file or directory
+12:53:55.647: 
+12:53:55.649: os_dlopen(/usr//lib/obs-plugins/obs-vst.so->/usr//lib/obs-plugins/obs-vst.so): /usr//lib/obs-plugins/obs-vst.so: cannot open shared object file: No such file or directory
+12:53:55.649: 
+12:53:55.649: Module '/usr//lib/obs-plugins/obs-vst.so' not loaded
+12:53:55.652: os_dlopen(/usr//lib/obs-plugins/obs-x264.so->/usr//lib/obs-plugins/obs-x264.so): /usr//lib/obs-plugins/obs-x264.so: cannot open shared object file: No such file or directory
+12:53:55.652: 
+12:53:55.654: os_dlopen(/usr//lib/obs-plugins/obs-x264.so->/usr//lib/obs-plugins/obs-x264.so): /usr//lib/obs-plugins/obs-x264.so: cannot open shared object file: No such file or directory
+12:53:55.654: 
+12:53:55.654: Module '/usr//lib/obs-plugins/obs-x264.so' not loaded
+12:53:55.658: os_dlopen(/usr//lib/obs-plugins/rtmp-services.so->/usr//lib/obs-plugins/rtmp-services.so): /usr//lib/obs-plugins/rtmp-services.so: cannot open shared object file: No such file or directory
+12:53:55.658: 
+12:53:55.660: os_dlopen(/usr//lib/obs-plugins/rtmp-services.so->/usr//lib/obs-plugins/rtmp-services.so): /usr//lib/obs-plugins/rtmp-services.so: cannot open shared object file: No such file or directory
+12:53:55.660: 
+12:53:55.660: Module '/usr//lib/obs-plugins/rtmp-services.so' not loaded
+12:53:55.663: os_dlopen(/usr//lib/obs-plugins/text-freetype2.so->/usr//lib/obs-plugins/text-freetype2.so): /usr//lib/obs-plugins/text-freetype2.so: cannot open shared object file: No such file or directory
+12:53:55.663: 
+12:53:55.665: os_dlopen(/usr//lib/obs-plugins/text-freetype2.so->/usr//lib/obs-plugins/text-freetype2.so): /usr//lib/obs-plugins/text-freetype2.so: cannot open shared object file: No such file or directory
+12:53:55.665: 
+12:53:55.665: Module '/usr//lib/obs-plugins/text-freetype2.so' not loaded
+12:53:55.665: ---------------------------------
+12:53:55.665:   Loaded Modules:
+12:53:55.665:     linux-pipewire.so
+12:53:55.665:     linux-jack.so
+12:53:55.665:     linux-capture.so
+12:53:55.665:     linux-alsa.so
+12:53:55.665:     image-source.so
+12:53:55.665:     frontend-tools.so
+12:53:55.665:     decklink-output-ui.so
+12:53:55.665:     decklink-captions.so
+12:53:55.665: ---------------------------------
+12:53:55.674: ==== Startup complete ===============================================
+12:53:55.674: Service 'rtmp_common' not found
+12:53:55.678: Failed to initialize service
+12:54:01.477: [Scripting] Total detached callbacks: 0
+12:54:01.478: Freeing OBS context data
+12:54:01.506: == Profiler Results =============================
+12:54:01.506: run_program_init: 31517.7 ms
+12:54:01.506:  ┣OBSApp::AppInit: 12.378 ms
+12:54:01.506:  ┃ ┗OBSApp::InitLocale: 5.425 ms
+12:54:01.506:  ┗OBSApp::OBSInit: 25578.7 ms
+12:54:01.506:    ┣obs_startup: 3.368 ms
+12:54:01.506:    ┗OBSBasic::OBSInit: 25503.9 ms
+12:54:01.506:      ┣OBSBasic::InitBasicConfig: 0.101 ms
+12:54:01.506:      ┣OBSBasic::ResetAudio: 0.563 ms
+12:54:01.506:      ┣OBSBasic::ResetVideo: 208.558 ms
+12:54:01.506:      ┣OBSBasic::InitOBSCallbacks: 0.009 ms
+12:54:01.506:      ┣OBSBasic::InitHotkeys: 0.041 ms
+12:54:01.506:      ┣obs_load_all_modules2: 25282.1 ms
+12:54:01.506:      ┃ ┣obs_init_module(decklink-captions.so): 0.002 ms
+12:54:01.506:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.007 ms
+12:54:01.506:      ┃ ┣obs_init_module(decklink.so): 0.144 ms
+12:54:01.506:      ┃ ┣obs_init_module(frontend-tools.so): 77.927 ms
+12:54:01.506:      ┃ ┣obs_init_module(image-source.so): 0.007 ms
+12:54:01.506:      ┃ ┣obs_init_module(linux-alsa.so): 0.007 ms
+12:54:01.506:      ┃ ┣obs_init_module(linux-capture.so): 1.563 ms
+12:54:01.506:      ┃ ┣obs_init_module(linux-jack.so): 0.004 ms
+12:54:01.506:      ┃ ┗obs_init_module(linux-pipewire.so): 25027.4 ms
+12:54:01.506:      ┗OBSBasic::InitService: 0.056 ms
+12:54:01.506: obs_hotkey_thread(25 ms): min=0.252 ms, median=0.745 ms, max=4.504 ms, 99th percentile=2.012 ms, 100% below 25 ms
+12:54:01.506: audio_thread(Audio): min=0.006 ms, median=0.025 ms, max=0.39 ms, 99th percentile=0.093 ms
+12:54:01.506: obs_graphics_thread(16.6667 ms): min=0.086 ms, median=0.339 ms, max=3.393 ms, 99th percentile=0.702 ms, 100% below 16.667 ms
+12:54:01.506:  ┣tick_sources: min=0 ms, median=0.003 ms, max=0.066 ms, 99th percentile=0.015 ms
+12:54:01.506:  ┣output_frame: min=0.033 ms, median=0.138 ms, max=1.085 ms, 99th percentile=0.386 ms
+12:54:01.506:  ┃ ┗gs_context(video->graphics): min=0.032 ms, median=0.137 ms, max=1.084 ms, 99th percentile=0.384 ms
+12:54:01.506:  ┃   ┣render_video: min=0.007 ms, median=0.031 ms, max=0.213 ms, 99th percentile=0.108 ms
+12:54:01.506:  ┃   ┃ ┗render_main_texture: min=0.006 ms, median=0.024 ms, max=0.201 ms, 99th percentile=0.086 ms
+12:54:01.506:  ┃   ┗gs_flush: min=0.013 ms, median=0.06 ms, max=1.013 ms, 99th percentile=0.216 ms
+12:54:01.506:  ┗render_displays: min=0.011 ms, median=0.037 ms, max=0.286 ms, 99th percentile=0.171 ms
+12:54:01.506: =================================================
+12:54:01.506: == Profiler Time Between Calls ==================
+12:54:01.506: obs_hotkey_thread(25 ms): min=25.347 ms, median=26.329 ms, max=30.069 ms, 2.61163% within ±2% of 25 ms (0% lower, 97.3884% higher)
+12:54:01.506: obs_graphics_thread(16.6667 ms): min=13.895 ms, median=16.674 ms, max=19.642 ms, 50.6438% within ±2% of 16.667 ms (24.4099% lower, 24.9464% higher)
+12:54:01.506: =================================================
+12:54:01.510: Number of memory leaks: 693

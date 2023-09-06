@@ -1,8 +1,0 @@
-2023-09-06 11:27:28.059 [warning] Unable to find "$VIMRUNTIME/delmenu.vim" file for configuration.
-2023-09-06 11:27:28.075 [warning] Unable to find "$VIMRUNTIME/menu.vim" file for configuration.
-2023-09-06 11:27:28.121 [warning] Encountered an unrecognized mapping type: 'snor'
-2023-09-06 11:27:28.302 [info] Configuration changed
-2023-09-06 11:27:28.450 [warning] Unable to find "$VIMRUNTIME/delmenu.vim" file for configuration.
-2023-09-06 11:27:28.451 [warning] Unable to find "$VIMRUNTIME/menu.vim" file for configuration.
-2023-09-06 11:27:28.479 [warning] Encountered an unrecognized mapping type: 'snor'
-2023-09-06 11:27:29.794 [info] /home/aryan/.config/bspwm/sxhkdrc closed
