@@ -1,6 +1,6 @@
-2023/09/02-20:56:38.979 2db1e Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/02-20:56:38.979 2db1e Recovering log #10
-2023/09/02-20:56:38.991 2db1e Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000010.log 
-2023/09/02-20:56:44.737 2db1b Level-0 table #16: started
-2023/09/02-20:56:44.750 2db1b Level-0 table #16: 1227714 bytes OK
-2023/09/02-20:56:44.752 2db1b Delete type=0 #10
+2023/09/05-23:36:06.433 99a6 Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/05-23:36:06.433 99a6 Recovering log #72
+2023/09/05-23:36:06.457 99a6 Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000072.log 
+2023/09/05-23:36:15.378 9999 Level-0 table #77: started
+2023/09/05-23:36:15.390 9999 Level-0 table #77: 1271528 bytes OK
+2023/09/05-23:36:15.392 9999 Delete type=0 #72

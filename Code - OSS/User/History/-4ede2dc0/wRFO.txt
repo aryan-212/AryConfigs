@@ -1,0 +1,15 @@
+use "ls -l: test*" to show all the files starting with "test"
+Symbolic link : ln -s test2 test5
+            test 5 -> test 2
+        test 5 is a link of test 2
+
+
+
+
+
+
+
+
+
+
+

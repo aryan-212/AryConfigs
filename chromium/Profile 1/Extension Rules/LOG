@@ -1,2 +1,3 @@
-2023/09/02-11:03:46.039 2aac4 Creating DB /home/aryan/.config/chromium/Profile 1/Extension Rules since it was missing.
-2023/09/02-11:03:46.042 2aac4 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/Extension Rules/MANIFEST-000001
+2023/09/03-22:28:21.242 53c6 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/Extension Rules/MANIFEST-000001
+2023/09/03-22:28:21.242 53c6 Recovering log #3
+2023/09/03-22:28:21.243 53c6 Reusing old log /home/aryan/.config/chromium/Profile 1/Extension Rules/000003.log 

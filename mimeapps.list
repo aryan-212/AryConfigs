@@ -1,14 +1,16 @@
 [Added Associations]
-image/png=feh.desktop;viewnior.desktop;
-image/jpeg=viewnior.desktop;
-image/gif=viewnior.desktop;
-image/svg+xml=viewnior.desktop;
-text/x-csrc=geany.desktop;
-text/plain=geany.desktop;
+application/json=geany.desktop;
+application/x-raw-disk-image=xarchiver.desktop;
 application/x-shellscript=geany.desktop;
 application/x-theme=geany.desktop;
-application/json=geany.desktop;
+image/gif=viewnior.desktop;
+image/jpeg=viewnior.desktop;
+image/png=feh.desktop;viewnior.desktop;
+image/svg+xml=viewnior.desktop;
+text/plain=geany.desktop;
+text/x-csrc=geany.desktop;
 
 [Default Applications]
+application/x-raw-disk-image=xarchiver.desktop;
 image/gif=viewnior.desktop
 image/svg+xml=viewnior.desktop

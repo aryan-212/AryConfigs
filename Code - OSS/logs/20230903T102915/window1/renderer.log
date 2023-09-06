@@ -1,2 +1,0 @@
-2023-09-03 10:29:16.326 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/etc/pulse/daemon.conf","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
-2023-09-03 10:29:20.132 [info] [perf] Render performance baseline is 53ms

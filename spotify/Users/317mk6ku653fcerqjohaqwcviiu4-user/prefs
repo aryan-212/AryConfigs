@@ -1,6 +1,8 @@
-audio.equalizer_v2=true
+audio.crossfade_v2=true
 audio.play_bitrate_non_metered_migrated=true
+audio.equalizer_v2=true
 audio.play_bitrate_enumeration=4
+ui.minimize_to_tray=true
 audio.play_bitrate_non_metered_enumeration=4
-audio.loudness.environment=2
-audio.equalizer.low_shelf_gain_v2=1485342856
+audio.crossfade.time_v2=3736
+app.browser.zoom-level=150

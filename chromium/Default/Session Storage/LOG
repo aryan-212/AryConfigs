@@ -1,3 +1,6 @@
-2023/09/02-10:59:55.378 3 Reusing MANIFEST /home/aryan/.config/chromium/Default/Session Storage/MANIFEST-000001
-2023/09/02-10:59:55.382 3 Recovering log #7
-2023/09/02-10:59:55.385 3 Reusing old log /home/aryan/.config/chromium/Default/Session Storage/000007.log 
+2023/09/03-22:57:40.061 3 Reusing MANIFEST /home/aryan/.config/chromium/Default/Session Storage/MANIFEST-000001
+2023/09/03-22:57:40.063 3 Recovering log #7
+2023/09/03-22:57:40.064 3 Reusing old log /home/aryan/.config/chromium/Default/Session Storage/000007.log 
+2023/09/03-22:58:10.854 4 Level-0 table #11: started
+2023/09/03-22:58:10.860 4 Level-0 table #11: 252653 bytes OK
+2023/09/03-22:58:10.862 4 Delete type=0 #7

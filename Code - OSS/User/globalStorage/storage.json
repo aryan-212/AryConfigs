@@ -3,33 +3,34 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/aryan/.config/neofetch": "__default__profile__",
+            "file:///home/aryan/Coding/UNIX%20Notes": "__default__profile__",
+            "file:///home/aryan/Coding/iVerilog": "__default__profile__",
+            "file:///home/aryan/Coding/Tokens": "__default__profile__",
             "file:///home/aryan/Coding": "__default__profile__"
         },
-        "emptyWindows": {
-            "1693681015844": "__default__profile__",
-            "1693717143313": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "63aed7ab4797c67f657701a4d9445f393dc0c01f75251f24c85025c63f926634",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1693717143313"
+                "folderUri": "file:///home/aryan/Coding"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/aryan/.config/Code - OSS/Backups/1693717143313",
+            "folder": "file:///home/aryan/Coding",
+            "backupPath": "/home/aryan/.config/Code - OSS/Backups/c67c0516c271b36f4da8879ca7dcae31",
             "uiState": {
                 "mode": 1,
-                "x": 1444,
-                "y": 567,
-                "width": 464,
-                "height": 501
+                "x": 12,
+                "y": 52,
+                "width": 941,
+                "height": 1016
             }
         },
         "openedWindows": []
@@ -92,6 +93,50 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/aryan/Coding/Tokens",
+                                        "path": "/home/aryan/Coding/Tokens",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/Tokens"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/Coding/iVerilog",
+                                        "path": "/home/aryan/Coding/iVerilog",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/iVerilog"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/Coding/UNIX%20Notes",
+                                        "path": "/home/aryan/Coding/UNIX Notes",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/UNIX Notes"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan",
+                                        "path": "/home/aryan",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/aryan"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/aryan/.config/neofetch",
                                         "path": "/home/aryan/.config/neofetch",
                                         "scheme": "file"
@@ -106,56 +151,34 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/pulse/default.pa",
-                                        "path": "/etc/pulse/default.pa",
+                                        "external": "file:///home/aryan/.config/bspwm/bspwmrc",
+                                        "path": "/home/aryan/.config/bspwm/bspwmrc",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/pulse/default.pa"
+                                    "label": "~/.config/bspwm/bspwmrc"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/pulse/daemon.conf",
-                                        "path": "/etc/pulse/daemon.conf",
+                                        "external": "file:///home/aryan/Coding/Data%20Structures/Hackerrank/svg_elements.html",
+                                        "path": "/home/aryan/Coding/Data Structures/Hackerrank/svg_elements.html",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/pulse/daemon.conf"
+                                    "label": "~/Coding/Data Structures/Hackerrank/svg_elements.html"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/pulse/daemon.conf.config/bspwm/themes/forest/polybar/bars.ini",
-                                        "path": "/etc/pulse/daemon.conf.config/bspwm/themes/forest/polybar/bars.ini",
+                                        "external": "file:///home/aryan/Coding/Data%20Structures/Stack/new.c",
+                                        "path": "/home/aryan/Coding/Data Structures/Stack/new.c",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/pulse/daemon.conf.config/bspwm/themes/forest/polybar/bars.ini"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aryan/.config/bspwm/themes/forest/polybar/bars.ini",
-                                        "path": "/home/aryan/.config/bspwm/themes/forest/polybar/bars.ini",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/bspwm/themes/forest/polybar/bars.ini"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aryan/Downloads/WhatSie/mux.v",
-                                        "path": "/home/aryan/Downloads/WhatSie/mux.v",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/WhatSie/mux.v"
+                                    "label": "~/Coding/Data Structures/Stack/new.c"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -172,45 +195,67 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/aryan/jerry.log",
-                                        "path": "/home/aryan/jerry.log",
+                                        "external": "file:///home/aryan/Coding/Tokens/gittoken.txt",
+                                        "path": "/home/aryan/Coding/Tokens/gittoken.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/jerry.log"
+                                    "label": "~/Coding/Tokens/gittoken.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/aryan/.config/jerry/jerry.conf",
-                                        "path": "/home/aryan/.config/jerry/jerry.conf",
+                                        "external": "file:///home/aryan/Coding/iVerilog/alu.v",
+                                        "path": "/home/aryan/Coding/iVerilog/alu.v",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/jerry/jerry.conf"
+                                    "label": "~/Coding/iVerilog/alu.v"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/aryan/.config/jerry/jerry.confnames.txt",
-                                        "path": "/home/aryan/.config/jerry/jerry.confnames.txt",
+                                        "external": "file:///home/aryan/Coding/Data%20Structures/Stack/Untitled-1",
+                                        "path": "/home/aryan/Coding/Data Structures/Stack/Untitled-1",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/jerry/jerry.confnames.txt"
+                                    "label": "~/Coding/Data Structures/Stack/Untitled-1"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/aryan/project/names.txt",
-                                        "path": "/home/aryan/project/names.txt",
+                                        "external": "file:///home/aryan/Coding/UNIX%20Notes/UNIX_notes.txt",
+                                        "path": "/home/aryan/Coding/UNIX Notes/UNIX_notes.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/project/names.txt"
+                                    "label": "~/Coding/UNIX Notes/UNIX_notes.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/README.md",
+                                        "path": "/home/aryan/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/README.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/Hyprland/README.md",
+                                        "path": "/home/aryan/Hyprland/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Hyprland/README.md"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -257,7 +302,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -267,6 +313,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -392,12 +445,15 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -593,7 +649,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -840,8 +897,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -850,8 +906,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1167,8 +1222,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1351,6 +1405,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1743,7 +1802,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

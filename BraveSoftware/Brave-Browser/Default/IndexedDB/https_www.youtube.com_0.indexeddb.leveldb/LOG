@@ -1,9 +1,3 @@
-2023/09/03-11:06:44.187 12778 Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/03-11:06:44.187 12778 Recovering log #15
-2023/09/03-11:06:44.192 12778 Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000015.log 
-2023/09/03-11:06:44.281 12775 Compacting 1@1 + 1@2 files
-2023/09/03-11:06:44.290 12775 Generated table #18@1: 380 keys, 44075 bytes
-2023/09/03-11:06:44.290 12775 Compacted 1@1 + 1@2 files => 44075 bytes
-2023/09/03-11:06:44.291 12775 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/09/03-11:06:44.292 12775 Delete type=2 #13
-2023/09/03-11:06:44.292 12775 Delete type=2 #16
+2023/09/06-11:35:43.306 4e39 Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/06-11:35:43.307 4e39 Recovering log #76
+2023/09/06-11:35:43.311 4e39 Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000076.log 

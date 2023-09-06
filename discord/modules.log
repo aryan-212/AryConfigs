@@ -691,3 +691,51 @@
 2023-09-02T18:14:49.517Z [Modules] Host is up to date.
 2023-09-02T18:14:49.517Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2023-09-02T18:14:49.522Z [Modules] No module updates available.
+2023-09-03T13:46:48.643Z [Modules] Modules initializing
+2023-09-03T13:46:48.646Z [Modules] Distribution: remote
+2023-09-03T13:46:48.646Z [Modules] Host updates: enabled
+2023-09-03T13:46:48.646Z [Modules] Module updates: enabled
+2023-09-03T13:46:48.647Z [Modules] Module install path: /home/aryan/.config/discord/0.0.29/modules
+2023-09-03T13:46:48.647Z [Modules] Module installed file path: /home/aryan/.config/discord/0.0.29/modules/installed.json
+2023-09-03T13:46:48.647Z [Modules] Module download path: /home/aryan/.config/discord/0.0.29/modules/pending
+2023-09-03T13:46:48.905Z [Modules] No updates to install
+2023-09-03T13:46:48.906Z [Modules] Checking for host updates.
+2023-09-03T13:46:49.338Z [Modules] Host is up to date.
+2023-09-03T13:46:49.339Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-03T13:46:49.389Z [Modules] No module updates available.
+2023-09-03T13:46:51.990Z [Modules] Checking for host updates.
+2023-09-03T13:46:52.508Z [Modules] Host is up to date.
+2023-09-03T13:46:52.508Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-03T13:46:52.511Z [Modules] No module updates available.
+2023-09-03T18:03:14.413Z [Modules] Modules initializing
+2023-09-03T18:03:14.417Z [Modules] Distribution: remote
+2023-09-03T18:03:14.417Z [Modules] Host updates: enabled
+2023-09-03T18:03:14.417Z [Modules] Module updates: enabled
+2023-09-03T18:03:14.418Z [Modules] Module install path: /home/aryan/.config/discord/0.0.29/modules
+2023-09-03T18:03:14.418Z [Modules] Module installed file path: /home/aryan/.config/discord/0.0.29/modules/installed.json
+2023-09-03T18:03:14.419Z [Modules] Module download path: /home/aryan/.config/discord/0.0.29/modules/pending
+2023-09-03T18:03:14.743Z [Modules] No updates to install
+2023-09-03T18:03:14.744Z [Modules] Checking for host updates.
+2023-09-03T18:03:15.252Z [Modules] Host is up to date.
+2023-09-03T18:03:15.252Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-03T18:03:15.295Z [Modules] No module updates available.
+2023-09-03T18:03:18.553Z [Modules] Checking for host updates.
+2023-09-03T18:03:19.018Z [Modules] Host is up to date.
+2023-09-03T18:03:19.018Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-03T18:03:19.026Z [Modules] No module updates available.
+2023-09-04T17:52:13.161Z [Modules] Modules initializing
+2023-09-04T17:52:13.165Z [Modules] Distribution: remote
+2023-09-04T17:52:13.166Z [Modules] Host updates: enabled
+2023-09-04T17:52:13.166Z [Modules] Module updates: enabled
+2023-09-04T17:52:13.166Z [Modules] Module install path: /home/aryan/.config/discord/0.0.29/modules
+2023-09-04T17:52:13.166Z [Modules] Module installed file path: /home/aryan/.config/discord/0.0.29/modules/installed.json
+2023-09-04T17:52:13.166Z [Modules] Module download path: /home/aryan/.config/discord/0.0.29/modules/pending
+2023-09-04T17:52:13.469Z [Modules] No updates to install
+2023-09-04T17:52:13.470Z [Modules] Checking for host updates.
+2023-09-04T17:52:13.960Z [Modules] Host is up to date.
+2023-09-04T17:52:13.960Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-04T17:52:14.003Z [Modules] No module updates available.
+2023-09-04T17:52:17.270Z [Modules] Checking for host updates.
+2023-09-04T17:52:17.788Z [Modules] Host is up to date.
+2023-09-04T17:52:17.788Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-04T17:52:17.794Z [Modules] No module updates available.
