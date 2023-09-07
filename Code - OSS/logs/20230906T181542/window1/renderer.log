@@ -1,0 +1,2 @@
+2023-09-06 18:15:43.765 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/aryan/.config/bspwm/picom.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-06 18:15:47.674 [info] [perf] Render performance baseline is 49ms

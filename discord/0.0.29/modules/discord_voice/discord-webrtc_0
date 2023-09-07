@@ -1,296 +1,339 @@
-[2023-09-04 23:22:15.354] [220500] (engine.cpp:309): Created native Engine, time: Mon Sep  4 23:22:15 2023 IST, logPath: /home/aryan/.config/discord/0.0.29/modules/discord_voice/, logLevel: 2
-[2023-09-04 23:22:15.380] [220500] (audio_processing_impl.cc:295): Injected APM submodules:
+[2023-09-07 13:11:51.356] [16128] (engine.cpp:309): Created native Engine, time: Thu Sep  7 13:11:51 2023 IST, logPath: /home/aryan/.config/discord/0.0.29/modules/discord_voice/, logLevel: 2
+[2023-09-07 13:11:51.374] [16128] (audio_processing_impl.cc:295): Injected APM submodules:
 Echo control factory: 0
 Echo detector: 0
 Capture analyzer: 0
 Capture post processor: 0
 Render pre processor: 0
-[2023-09-04 23:22:15.380] [220500] (audio_processing_impl.cc:304): Denormal disabler: supported
-[2023-09-04 23:22:15.380] [220500] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:143): current platform is Linux
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:991): PlatformAudioLayer
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:298): PulseAudio support is enabled.
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:344): AttachAudioBuffer
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(0)
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:354): ActiveAudioLayer
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:143): current platform is Linux
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:991): PlatformAudioLayer
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:298): PulseAudio support is enabled.
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:344): AttachAudioBuffer
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(0)
-[2023-09-04 23:22:15.382] [220500] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
-[2023-09-04 23:22:15.382] [220500] (audio_processing_impl.cc:295): Injected APM submodules:
+[2023-09-07 13:11:51.374] [16128] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-07 13:11:51.374] [16128] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-07 13:11:51.376] [16128] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-07 13:11:51.376] [16128] (audio_processing_impl.cc:295): Injected APM submodules:
 Echo control factory: 0
 Echo detector: 0
 Capture analyzer: 0
 Capture post processor: 0
 Render pre processor: 0
-[2023-09-04 23:22:15.382] [220500] (audio_processing_impl.cc:304): Denormal disabler: supported
-[2023-09-04 23:22:15.382] [220500] (audio_engine.cpp:520): Creating audio engine: standard
-[2023-09-04 23:22:15.382] [220500] (audio_device_impl.cc:364): Init
-[2023-09-04 23:22:15.391] [220500] (audio_device_impl.cc:364): Init
-[2023-09-04 23:22:15.396] [220500] (audio_coding.cpp:147): Using software Opus decoder
-[2023-09-04 23:22:15.396] [220500] (audio_coding.cpp:164): Using software Opus encoder
-[2023-09-04 23:22:15.396] [220500] (audio_device_impl.cc:895): RegisterAudioCallback
-[2023-09-04 23:22:15.396] [220500] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
-[2023-09-04 23:22:15.396] [220500] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2023-09-04 23:22:15.396] [220500] (audio_device_impl.cc:895): RegisterAudioCallback
-[2023-09-04 23:22:15.396] [220500] (audio_engine.cpp:187): Setting audio input device: 'default'
-[2023-09-04 23:22:15.396] [220500] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2023-09-04 23:22:15.396] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(2)
-[2023-09-04 23:22:15.396] [220500] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2023-09-04 23:22:15.396] [220500] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2023-09-04 23:22:15.397] [220500] (audio_device_impl.cc:573): output: 1
-[2023-09-04 23:22:15.397] [220500] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2023-09-04 23:22:15.397] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(2)
-[2023-09-04 23:22:15.397] [220500] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2023-09-04 23:22:15.397] [220500] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2023-09-04 23:22:15.397] [220500] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2023-09-04 23:22:15.397] [220500] (audio_engine.cpp:204): Setting audio output device: 'default'
-[2023-09-04 23:22:15.397] [220500] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2023-09-04 23:22:15.398] [220500] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2023-09-04 23:22:15.399] [220500] (audio_device_impl.cc:619): output: 1
-[2023-09-04 23:22:15.399] [220500] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2023-09-04 23:22:15.399] [220500] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
-[2023-09-04 23:22:15.399] [220500] (audio_device_impl.cc:911): BuiltInAECIsAvailable
-[2023-09-04 23:22:15.399] [220500] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
-[2023-09-04 23:22:15.399] [220500] (audio_device_impl.cc:914): output: 0
-[2023-09-04 23:22:15.399] [220500] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
-[2023-09-04 23:22:15.402] [220500] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
-[2023-09-04 23:22:15.402] [220500] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
-[2023-09-04 23:22:15.402] [220500] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
-[2023-09-04 23:22:15.403] [220500] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
-[2023-09-04 23:22:15.403] [220500] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
-[2023-09-04 23:22:15.403] [220500] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
-[2023-09-04 23:22:15.403] [220500] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
-[2023-09-04 23:22:15.403] [220500] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
-[2023-09-04 23:22:15.403] [220500] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
-[2023-09-04 23:22:15.404] [220500] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
-[2023-09-04 23:22:15.541] [220422] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: 845371530497622046, was: null, was: undefined)"]
-[2023-09-04 23:22:15.543] [220500] (audio_engine.cpp:187): Setting audio input device: 'default'
-[2023-09-04 23:22:15.543] [220500] (audio_device_impl.cc:826): RecordingIsInitialized
-[2023-09-04 23:22:15.543] [220500] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2023-09-04 23:22:15.543] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(2)
-[2023-09-04 23:22:15.543] [220500] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2023-09-04 23:22:15.544] [220500] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2023-09-04 23:22:15.544] [220500] (audio_device_impl.cc:573): output: 1
-[2023-09-04 23:22:15.544] [220500] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2023-09-04 23:22:15.544] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(2)
-[2023-09-04 23:22:15.544] [220500] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2023-09-04 23:22:15.544] [220500] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2023-09-04 23:22:15.544] [220500] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2023-09-04 23:22:15.544] [220500] (audio_engine.cpp:204): Setting audio output device: 'default'
-[2023-09-04 23:22:15.544] [220500] (audio_device_impl.cc:820): PlayoutIsInitialized
-[2023-09-04 23:22:15.544] [220500] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2023-09-04 23:22:15.545] [220500] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2023-09-04 23:22:15.545] [220422] (discord.cpp:666): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 225093, Version Hash: ebbfd6aa47ab1ac3bf654f896d9a9872ae0b7e8f"]
-[2023-09-04 23:22:15.545] [220500] (audio_device_impl.cc:619): output: 1
-[2023-09-04 23:22:15.545] [220500] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2023-09-04 23:22:15.545] [220500] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
-[2023-09-04 23:22:15.545] [220500] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2023-09-04 23:22:15.545] [220500] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2023-09-04 23:22:15.545] [220500] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2023-09-04 23:22:15.584] [220422] (discord.cpp:666): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
-[2023-09-04 23:22:15.600] [220422] (discord.cpp:666): JS console: ["%c[default]","[NATIVE INFO] host 0.0.29, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
-[2023-09-04 23:22:15.622] [220422] (discord.cpp:666): JS console: ["[FAST CONNECT] connected in 1145ms"]
-[2023-09-04 23:22:15.623] [220500] (audio_engine.cpp:187): Setting audio input device: 'default'
-[2023-09-04 23:22:15.623] [220500] (audio_device_impl.cc:826): RecordingIsInitialized
-[2023-09-04 23:22:15.623] [220500] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2023-09-04 23:22:15.623] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(2)
-[2023-09-04 23:22:15.623] [220500] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2023-09-04 23:22:15.624] [220500] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2023-09-04 23:22:15.625] [220500] (audio_device_impl.cc:573): output: 1
-[2023-09-04 23:22:15.625] [220500] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2023-09-04 23:22:15.625] [220500] (audio_device_buffer.cc:203): SetRecordingChannels(2)
-[2023-09-04 23:22:15.625] [220500] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2023-09-04 23:22:15.625] [220500] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2023-09-04 23:22:15.625] [220500] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2023-09-04 23:22:15.625] [220500] (audio_engine.cpp:204): Setting audio output device: 'default'
-[2023-09-04 23:22:15.625] [220500] (audio_device_impl.cc:820): PlayoutIsInitialized
-[2023-09-04 23:22:15.625] [220500] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2023-09-04 23:22:15.625] [220500] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2023-09-04 23:22:15.626] [220500] (audio_device_impl.cc:619): output: 1
-[2023-09-04 23:22:15.626] [220500] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2023-09-04 23:22:15.626] [220500] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
-[2023-09-04 23:22:15.656] [220422] (discord.cpp:666): JS console: ["Initializing krisp module"]
-[2023-09-04 23:22:16.332] [220422] (discord.cpp:666): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
-[2023-09-04 23:22:16.481] [220422] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
-[2023-09-04 23:22:17.052] [220422] (discord.cpp:666): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discord.com/assets/d01079b69b28b8d9deae.js:1465:330)\n    at Bn (https://discord.com/assets/d01079b69b28b8d9deae.js:1491:696)\n    at Wn (https://discord.com/assets/d01079b69b28b8d9deae.js:1494:356)\n    at Zn (https://discord.com/assets/d01079b69b28b8d9deae.js:1494:199)\n    at Yn (https://discord.com/assets/d01079b69b28b8d9deae.js:1493:886)\n    at Kn (https://discord.com/assets/d01079b69b28b8d9deae.js:1494:697)\n    at zn (https://discord.com/assets/d01079b69b28b8d9deae.js:1494:731)\n    at i (https://discord.com/assets/d01079b69b28b8d9deae.js:1461:961)\n    at 408481 (https://discord.com/assets/10a41b72011371876603.js:21:346)\n    at l (https://discord.com/assets/06096f890d06b196f7c4.js:1:154)\n    at 558820 (https://discord.com/assets/10a41b72011371876603.js:14:338)\n    at l (https://discord.com/assets/06096f890d06b196f7c4.js:1:154)\n    at 308739 (https://discord.com/assets/10a41b72011371876603.js:2:331)\n    at l (https://discord.com/assets/06096f890d06b196f7c4.js:1:154)\n    at 173242 (https://discord.com/assets/6f0c61fa5b2b1122167c.js:361:101)\n    at l (https://discord.com/assets/06096f890d06b196f7c4.js:1:154)\n    at 636877 (https://discord.com/assets/8d9068bf18135be520aa.js:35:174)\n    at Function.l (https://discord.com/assets/06096f890d06b196f7c4.js:1:154)"]
-[2023-09-04 23:22:17.113] [220422] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
-[2023-09-04 23:22:17.709] [220422] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
-[2023-09-04 23:22:17.709] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
-[2023-09-04 23:22:17.709] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
-[2023-09-04 23:22:17.710] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
-[2023-09-04 23:22:17.710] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
-[2023-09-04 23:22:17.710] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
-[2023-09-04 23:22:17.711] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
-[2023-09-04 23:22:17.711] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
-[2023-09-04 23:22:17.711] [220422] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
-[2023-09-04 23:22:17.712] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
-[2023-09-04 23:22:17.712] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
-[2023-09-04 23:22:17.721] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-mgd5: 0, heartbeat interval: 41250, took 11 ms"]
-[2023-09-04 23:22:17.753] [220422] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
-[2023-09-04 23:22:17.756] [220422] (discord.cpp:666): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
-[2023-09-04 23:22:21.060] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 3350ms, as de15cf6b523eb91d99a4bce31a8d5bd1 via \ngateway-prd-us-east1-b-mgd5: 604.627\n|  id_created: 1.699\n|  session_lookup_time: 2.447\n|  session_lookup_finished: 0.021\n|  discord-sessions-prd-2-295: 551.57\n|  |  start_session: 315.761\n|  |  |  discord-api-7c977c6df4-pcsks: 287.523\n|  |  |  |  get_user: 35.774\n|  |  |  |  get_guilds: 24.754\n|  |  |  |  user_settings_proto: 0.2\n|  |  |  |  relationships: 119.075\n|  |  |  |  friend_suggestion: 0.086\n|  |  |  |  connections: 0.204\n|  |  |  |  serialized_read_states: 0.006\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.001\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 0.002\n|  |  |  |  experiments: 21.463\n|  |  |  |  affine_user_ids: 54.384\n|  |  |  |  required_action: 0.004\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.109\n|  |  presence_started: 14.475\n|  |  guilds_started: 3.359\n|  |  guilds_connect: 188.517\n|  |  presence_connect: 0.002\n|  |  connect_finished: 188.547\n|  |  build_ready: 18.418\n|  |  clean_ready: 0.003\n|  |  optimize_ready: 10.383\n|  |  split_ready: 0.511"]
-[2023-09-04 23:22:21.060] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
-[2023-09-04 23:22:21.133] [220422] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
-[2023-09-04 23:22:21.135] [220422] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
-[2023-09-04 23:22:21.135] [220422] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 845371530497622046, database: undefined)"]
-[2023-09-04 23:22:21.135] [220422] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (845371530497622046 → null)"]
-[2023-09-04 23:22:21.162] [220422] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
-[2023-09-04 23:22:21.188] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","WS Connecting"]
-[2023-09-04 23:22:21.189] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","Added account: 317mk6ku653fcerqjohaqwcviiu4"]
-[2023-09-04 23:22:21.241] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1138069088980172800 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:22:21.242] [220422] (discord.cpp:666): JS console: ["%c[Flux]","Slow dispatch on CONNECTION_OPEN: 108.70000000018626ms"]
-[2023-09-04 23:22:21.246] [220422] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 144ms"]
-[2023-09-04 23:22:21.248] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-b.discord.gg"]
-[2023-09-04 23:22:21.273] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 3563ms"]
-[2023-09-04 23:22:21.273] [220422] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
-[2023-09-04 23:22:22.105] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 15 messages for 1138069088980172800 isBefore:false isAfter:false"]
-[2023-09-04 23:22:23.238] [220422] (discord.cpp:666): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 534.5999999996275ms"]
-[2023-09-04 23:22:23.261] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","Updated account access token: 317mk6ku653fcerqjohaqwcviiu4"]
-[2023-09-04 23:22:23.273] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:22:24.219] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","Updated account access token: 317mk6ku653fcerqjohaqwcviiu4"]
-[2023-09-04 23:22:24.292] [220500] (engine.cpp:744): Engine::SetClipBufferLength(0)
-[2023-09-04 23:22:25.113] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","WS Connected"]
-[2023-09-04 23:22:25.388] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","Profile updated for 317mk6ku653fcerqjohaqwcviiu4: isPremium = true"]
-[2023-09-04 23:22:25.400] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","Devices updated for 317mk6ku653fcerqjohaqwcviiu4:","[object Object]"]
-[2023-09-04 23:22:31.838] [220917] (region_latency_tester.cpp:72): Sending 5 latency test pings to region india
-[2023-09-04 23:22:31.838] [220917] (region_latency_tester.cpp:72): Sending 5 latency test pings to region dubai
-[2023-09-04 23:22:31.838] [220917] (region_latency_tester.cpp:72): Sending 5 latency test pings to region singapore
-[2023-09-04 23:22:31.838] [220917] (region_latency_tester.cpp:72): Sending 5 latency test pings to region hongkong
-[2023-09-04 23:22:31.839] [220917] (region_latency_tester.cpp:72): Sending 5 latency test pings to region tel-aviv
-[2023-09-04 23:22:34.289] [220422] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
-[2023-09-04 23:22:34.324] [220422] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Server revision: 134, Client revision: 133"]
-[2023-09-04 23:22:34.380] [220422] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Retrieved delta, domains added: 30, domains removed: 0"]
-[2023-09-04 23:22:34.392] [220422] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 27912 before update"]
-[2023-09-04 23:22:34.392] [220422] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Delta applied successfully"]
-[2023-09-04 23:22:34.392] [220422] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 27942 after update"]
-[2023-09-04 23:22:36.842] [220917] (region_latency_tester.cpp:172): Timing out 2 remaining latency test pings
-[2023-09-04 23:22:36.842] [220917] (region_latency_tester.cpp:271): Average RTT for region india is 28
-[2023-09-04 23:22:36.842] [220917] (region_latency_tester.cpp:271): Average RTT for region dubai is 281.75
-[2023-09-04 23:22:36.842] [220917] (region_latency_tester.cpp:271): Average RTT for region singapore is 91
-[2023-09-04 23:22:36.842] [220917] (region_latency_tester.cpp:271): Average RTT for region hongkong is 115
-[2023-09-04 23:22:36.842] [220917] (region_latency_tester.cpp:271): Average RTT for region tel-aviv is 326.667
-[2023-09-04 23:22:36.843] [220422] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","india,singapore,hongkong,dubai,tel-aviv"]
-[2023-09-04 23:22:38.416] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/1138069088980172800"]
-[2023-09-04 23:22:41.334] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 890046536778678355 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:22:41.430] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/890046536778678355"]
-[2023-09-04 23:22:41.835] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 890046536778678355 isBefore:false isAfter:false"]
-[2023-09-04 23:22:58.297] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:23:03.293] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:23:08.295] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:23:13.437] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:23:28.305] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:23:38.300] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:23:43.302] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:24:02.275] [220422] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
-[2023-09-04 23:24:10.022] [220422] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
-[2023-09-04 23:24:17.529] [220422] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
-[2023-09-04 23:24:18.310] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:24:19.222] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1135083204404052038 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:24:19.256] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/1135083204404052038"]
-[2023-09-04 23:24:19.758] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 15 messages for 1135083204404052038 isBefore:false isAfter:false"]
-[2023-09-04 23:24:23.311] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:24:27.651] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 890046593133346846 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:24:27.720] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/890046593133346846"]
-[2023-09-04 23:24:28.192] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 890046593133346846 isBefore:false isAfter:false"]
-[2023-09-04 23:24:30.728] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1134781302151852072 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:24:30.800] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/1134781302151852072"]
-[2023-09-04 23:24:31.301] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 21 messages for 1134781302151852072 isBefore:false isAfter:false"]
-[2023-09-04 23:24:33.322] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:24:36.364] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 952906228001034290 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:24:36.448] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/952906228001034290"]
-[2023-09-04 23:24:36.931] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 952906228001034290 isBefore:false isAfter:false"]
-[2023-09-04 23:24:38.326] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:25:18.348] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:25:23.352] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:25:33.366] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:25:38.366] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:26:44.298] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/890046536778678355"]
-[2023-09-04 23:26:53.489] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:26:58.491] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:27:08.489] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:27:23.490] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:27:28.490] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:27:33.492] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:27:48.495] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:28:03.495] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:28:08.499] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:28:13.499] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:28:27.566] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 890046665640280115 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:28:27.604] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/890046665640280115"]
-[2023-09-04 23:28:28.191] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 890046665640280115 isBefore:false isAfter:false"]
-[2023-09-04 23:28:28.586] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 890046693410758708 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:28:28.702] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/890046693410758708"]
-[2023-09-04 23:28:29.329] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 890046693410758708 isBefore:false isAfter:false"]
-[2023-09-04 23:28:38.511] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:28:41.005] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1135511974281756733 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
-[2023-09-04 23:28:41.077] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/1135511974281756733"]
-[2023-09-04 23:28:41.497] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 11 messages for 1135511974281756733 isBefore:false isAfter:false"]
-[2023-09-04 23:28:43.519] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:28:51.072] [220422] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/888837929789710387/952906228001034290"]
-[2023-09-04 23:29:05.778] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 952906228001034290 between 973347463916306452 and undefined. jump=undefined"]
-[2023-09-04 23:29:06.248] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 952906228001034290 isBefore:true isAfter:false"]
-[2023-09-04 23:29:15.271] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 952906228001034290 between 968452472584683570 and undefined. jump=undefined"]
-[2023-09-04 23:29:15.890] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 952906228001034290 isBefore:true isAfter:false"]
-[2023-09-04 23:29:18.511] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:29:19.850] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 952906228001034290 between 954823292341071992 and undefined. jump=undefined"]
-[2023-09-04 23:29:20.451] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 952906228001034290 isBefore:true isAfter:false"]
-[2023-09-04 23:29:23.750] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 952906228001034290 between 952912089440190485 and undefined. jump=undefined"]
-[2023-09-04 23:29:24.841] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 952906228001034290 isBefore:true isAfter:false"]
-[2023-09-04 23:29:39.571] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 952906228001034290 between 952906982598262804 and undefined. jump=undefined"]
-[2023-09-04 23:29:40.177] [220422] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 4 messages for 952906228001034290 isBefore:true isAfter:false"]
-[2023-09-04 23:30:03.544] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:08.548] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:13.550] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:18.550] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:23.552] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:28.555] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:33.554] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:43.566] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:53.559] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:30:58.558] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:31:08.567] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:31:13.565] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:31:53.570] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:31:58.575] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:32:03.599] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:32:08.584] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:32:13.584] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:32:33.580] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:32:43.582] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:32:48.576] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:32:58.575] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:33:03.576] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:33:08.576] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:33:13.589] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:35:58.966] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:36:03.967] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:36:08.966] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:36:23.970] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:36:28.969] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:36:38.973] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:36:48.979] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:36:58.981] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:03.986] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:08.995] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:13.993] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:18.996] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:28.991] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:33.995] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:48.995] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:53.995] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
-[2023-09-04 23:37:56.950] [220422] (discord.cpp:666): JS console: ["%c[Spotify]","Devices updated for 317mk6ku653fcerqjohaqwcviiu4:",""]
-[2023-09-04 23:37:58.996] [220422] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-07 13:11:51.376] [16128] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-07 13:11:51.376] [16128] (audio_engine.cpp:520): Creating audio engine: standard
+[2023-09-07 13:11:51.376] [16128] (audio_device_impl.cc:364): Init
+[2023-09-07 13:11:51.387] [16128] (audio_device_impl.cc:364): Init
+[2023-09-07 13:11:51.391] [16128] (audio_coding.cpp:147): Using software Opus decoder
+[2023-09-07 13:11:51.391] [16128] (audio_coding.cpp:164): Using software Opus encoder
+[2023-09-07 13:11:51.391] [16128] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-07 13:11:51.391] [16128] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-09-07 13:11:51.391] [16128] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-07 13:11:51.391] [16128] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-07 13:11:51.391] [16128] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-07 13:11:51.391] [16128] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-07 13:11:51.391] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-07 13:11:51.391] [16128] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-07 13:11:51.391] [16128] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-07 13:11:51.392] [16128] (audio_device_impl.cc:573): output: 1
+[2023-09-07 13:11:51.392] [16128] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-07 13:11:51.392] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-07 13:11:51.392] [16128] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-07 13:11:51.392] [16128] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-07 13:11:51.392] [16128] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-07 13:11:51.392] [16128] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-07 13:11:51.392] [16128] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-07 13:11:51.392] [16128] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-07 13:11:51.393] [16128] (audio_device_impl.cc:619): output: 1
+[2023-09-07 13:11:51.393] [16128] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-07 13:11:51.393] [16128] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-07 13:11:51.393] [16128] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-09-07 13:11:51.393] [16128] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-09-07 13:11:51.393] [16128] (audio_device_impl.cc:914): output: 0
+[2023-09-07 13:11:51.393] [16128] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-07 13:11:51.397] [16128] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-09-07 13:11:51.397] [16128] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-09-07 13:11:51.397] [16128] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-07 13:11:51.397] [16128] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-09-07 13:11:51.397] [16128] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-09-07 13:11:51.397] [16128] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-09-07 13:11:51.397] [16128] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-09-07 13:11:51.398] [16128] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-09-07 13:11:51.398] [16128] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-07 13:11:51.398] [16128] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-09-07 13:11:51.679] [16053] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: 845371530497622046, was: null, was: undefined)"]
+[2023-09-07 13:11:51.684] [16128] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-07 13:11:51.684] [16128] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-07 13:11:51.684] [16128] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-07 13:11:51.684] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-07 13:11:51.684] [16128] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-07 13:11:51.684] [16128] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-07 13:11:51.685] [16128] (audio_device_impl.cc:573): output: 1
+[2023-09-07 13:11:51.685] [16128] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-07 13:11:51.685] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-07 13:11:51.685] [16128] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-07 13:11:51.685] [16128] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-07 13:11:51.685] [16128] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-07 13:11:51.685] [16128] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-07 13:11:51.685] [16128] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-07 13:11:51.685] [16128] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-07 13:11:51.685] [16128] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-07 13:11:51.686] [16128] (audio_device_impl.cc:619): output: 1
+[2023-09-07 13:11:51.686] [16128] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-07 13:11:51.686] [16128] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-07 13:11:51.686] [16128] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-07 13:11:51.686] [16128] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-07 13:11:51.686] [16128] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-07 13:11:51.688] [16053] (discord.cpp:666): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 225873, Version Hash: a779bd2549fc33503f0a44f480c9ed755a699d18"]
+[2023-09-07 13:11:51.858] [16053] (discord.cpp:666): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-09-07 13:11:51.939] [16053] (discord.cpp:666): JS console: ["%c[default]","[NATIVE INFO] host 0.0.29, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
+[2023-09-07 13:11:51.989] [16128] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-07 13:11:51.989] [16128] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-07 13:11:51.989] [16128] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-07 13:11:51.989] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-07 13:11:51.989] [16128] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-07 13:11:51.989] [16128] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-07 13:11:51.990] [16128] (audio_device_impl.cc:573): output: 1
+[2023-09-07 13:11:51.990] [16128] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-07 13:11:51.990] [16128] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-07 13:11:51.990] [16128] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-07 13:11:51.990] [16128] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-07 13:11:51.990] [16128] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-07 13:11:51.990] [16128] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-07 13:11:51.990] [16128] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-07 13:11:51.990] [16128] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-07 13:11:51.990] [16128] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-07 13:11:51.991] [16128] (audio_device_impl.cc:619): output: 1
+[2023-09-07 13:11:51.991] [16128] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-07 13:11:51.991] [16128] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-07 13:11:52.026] [16053] (discord.cpp:666): JS console: ["Initializing krisp module"]
+[2023-09-07 13:11:53.127] [16053] (discord.cpp:666): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-09-07 13:11:53.348] [16053] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-09-07 13:11:54.150] [16053] (discord.cpp:666): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1467:330)\n    at Bn (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1493:696)\n    at Wn (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1496:356)\n    at Zn (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1496:199)\n    at Yn (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1495:886)\n    at Kn (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1496:697)\n    at zn (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1496:731)\n    at i (https://discord.com/assets/19af1f7cb40c8d95a8bb.js:1463:961)\n    at 408481 (https://discord.com/assets/692c6f070e9a699c195a.js:21:346)\n    at l (https://discord.com/assets/b1eee986ef5248d92f65.js:1:154)\n    at 558820 (https://discord.com/assets/692c6f070e9a699c195a.js:14:338)\n    at l (https://discord.com/assets/b1eee986ef5248d92f65.js:1:154)\n    at 308739 (https://discord.com/assets/692c6f070e9a699c195a.js:2:331)\n    at l (https://discord.com/assets/b1eee986ef5248d92f65.js:1:154)\n    at 173242 (https://discord.com/assets/e86a0629dfa93cdd0f88.js:362:101)\n    at l (https://discord.com/assets/b1eee986ef5248d92f65.js:1:154)\n    at 868179 (https://discord.com/assets/7a3d01bd13e324cf16e8.js:35:174)\n    at Function.l (https://discord.com/assets/b1eee986ef5248d92f65.js:1:154)"]
+[2023-09-07 13:11:54.217] [16053] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-07 13:11:55.091] [16053] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-09-07 13:11:55.091] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-09-07 13:11:55.092] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-07 13:11:55.092] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-07 13:11:55.092] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-07 13:11:55.093] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-07 13:11:55.093] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-09-07 13:11:55.093] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
+[2023-09-07 13:11:55.093] [16053] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-09-07 13:11:55.094] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-09-07 13:11:55.094] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-09-07 13:11:55.103] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-vcq3: 0, heartbeat interval: 41250, took 11 ms"]
+[2023-09-07 13:11:55.182] [16053] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-09-07 13:11:55.185] [16053] (discord.cpp:666): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-09-07 13:11:55.442] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CLOSED"]
+[2023-09-07 13:11:55.442] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] because of authentication failure, marking as closed."]
+[2023-09-07 13:11:55.442] [16053] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESET] (true, 4004, Authentication failed.)"]
+[2023-09-07 13:11:55.443] [16053] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2023-09-07 13:11:55.444] [16053] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionClosed called with code 4004.","[object Object]"]
+[2023-09-07 13:11:55.444] [16053] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleLogout called.","[object Object]"]
+[2023-09-07 13:11:55.445] [16053] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","removeAuthToken called.","[object Object]"]
+[2023-09-07 13:11:55.450] [16053] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: null, was: 845371530497622046, was: undefined)"]
+[2023-09-07 13:11:55.450] [16053] (discord.cpp:666): JS console: ["%c[ConnectionStore]","connection closed dispatched"]
+[2023-09-07 13:11:55.472] [16053] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /login"]
+[2023-09-07 13:11:58.166] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-09-07 13:11:58.615] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[450ms] got hello, auth timeout=136155ms"]
+[2023-09-07 13:11:58.662] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[497ms] connected, handshaking with fingerprint: gesiq5PsovJ0A70X_zCnJ8c2d5QUi9N7QYhP-Fkv_rA"]
+[2023-09-07 13:11:58.972] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[807ms] computed nonce proof"]
+[2023-09-07 13:11:59.281] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1116ms] handshake complete awaiting remote auth."]
+[2023-09-07 13:12:06.199] [16053] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to id-ID","(available)"]
+[2023-09-07 13:14:14.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[136611ms] disconnected, code: 4003 Handshake Timeout"]
+[2023-09-07 13:14:14.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:14:18.161] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:15:17.526] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[199355ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:15:17.526] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:15:25.636] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:15:58.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[240606ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:15:58.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:16:20.794] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:16:40.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[281856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:16:40.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:17:10.030] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:17:21.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[323106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:17:21.276] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:17:51.282] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:18:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[364356ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:18:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:18:32.530] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:18:43.774] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[405605ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:18:43.774] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:19:13.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:19:25.024] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[446855ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:19:25.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:19:55.031] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:20:06.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[488106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:20:06.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:20:36.283] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:20:47.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[529355ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:20:47.526] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:21:17.533] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:21:28.776] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[570605ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:21:28.776] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:21:58.783] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:22:10.026] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[611857ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:22:10.027] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:22:40.031] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:22:51.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[653106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:22:51.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:23:21.280] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:23:32.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[694355ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:23:32.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:24:02.530] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:24:13.776] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[735606ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:24:13.777] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:24:43.782] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:24:55.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[776856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:24:55.026] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:25:25.031] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:25:36.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[818106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:25:36.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:26:06.281] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:26:17.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[859356ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:26:17.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:26:47.531] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:26:58.774] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[900605ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:26:58.774] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:27:28.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:27:40.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[941856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:27:40.026] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:28:10.033] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:28:21.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[983105ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:28:21.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:28:51.280] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:29:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1024355ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:29:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:29:32.530] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:29:43.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1065605ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:29:43.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:30:13.782] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:30:25.026] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1106856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:30:25.026] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:30:55.031] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:31:06.274] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1148105ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:31:06.274] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:31:36.279] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:31:47.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1189355ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:31:47.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:32:17.532] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:32:28.785] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1230606ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:32:28.786] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:32:58.791] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:33:10.024] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1271856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:33:10.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:33:40.031] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:33:51.276] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1313106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:33:51.277] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:34:21.291] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:34:32.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1354355ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:34:32.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:35:02.529] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:35:13.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1395606ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:35:13.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:35:43.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:35:55.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1436856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:35:55.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:36:25.030] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:36:36.274] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1478105ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:36:36.274] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:37:06.280] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:37:17.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1519356ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:37:17.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:37:47.530] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:37:58.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1560606ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:37:58.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:38:28.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:38:40.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1601855ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:38:40.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:39:10.030] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:39:21.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1643106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:39:21.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:39:51.281] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:40:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1684356ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:40:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:40:32.531] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:40:43.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1725606ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:40:43.776] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:41:13.781] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:41:25.026] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1766856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:41:25.026] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:41:55.030] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:42:06.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1808106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:42:06.276] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:42:36.280] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:42:47.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1849355ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:42:47.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:43:17.531] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:43:28.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1890605ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:43:28.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:43:58.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:44:10.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1931855ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:44:10.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:44:40.030] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:44:51.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1973106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:44:51.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:45:21.280] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:45:32.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2014356ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:45:32.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:46:02.530] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:46:13.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2055605ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:46:13.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:46:43.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:46:55.024] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2096855ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:46:55.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:47:25.030] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:47:36.274] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2138106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:47:36.274] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:48:06.280] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:48:17.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2179356ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:48:17.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:48:47.530] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:48:58.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2220605ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:48:58.775] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:49:28.780] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:49:40.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2261856ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:49:40.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:50:10.030] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:50:21.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2303106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:50:21.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:50:51.280] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:51:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2344356ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:51:02.525] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:51:32.530] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:51:43.776] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2385606ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:51:43.776] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:52:13.783] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:52:25.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2426855ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:52:25.025] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:52:55.029] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]
+[2023-09-07 13:53:06.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2468106ms] heartbeat timeout, reconnecting."]
+[2023-09-07 13:53:06.275] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:53:29.491] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","reconnecting, now that document is visible"]
+[2023-09-07 13:53:29.492] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[2491327ms] cleaning up"]
+[2023-09-07 13:53:29.493] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-09-07 13:53:29.941] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[448ms] got hello, auth timeout=142685ms"]
+[2023-09-07 13:53:29.978] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[484ms] connected, handshaking with fingerprint: GXxl12UfIi62jUIz9aVyaV7munqt93KUPvmK_IvTQ7A"]
+[2023-09-07 13:53:30.287] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[794ms] computed nonce proof"]
+[2023-09-07 13:53:30.598] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1105ms] handshake complete awaiting remote auth."]
+[2023-09-07 13:55:52.627] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[143131ms] disconnected, code: 4003 Handshake Timeout"]
+[2023-09-07 13:55:52.627] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","Could not complete QR code login, trying to restart with a new QR code."]
+[2023-09-07 13:55:56.829] [16053] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","document is not visible, will defer reconnection when document becomes visible."]

@@ -1,5 +1,5 @@
-2023/09/06-12:53:05.925 251ab Recovering log #3
-2023/09/06-12:53:06.048 251ab Level-0 table #5: started
-2023/09/06-12:53:06.152 251ab Level-0 table #5: 2784740 bytes OK
-2023/09/06-12:53:06.175 251ab Delete type=3 #2
-2023/09/06-12:53:06.175 251ab Delete type=0 #3
+2023/09/07-02:26:43.899 14daf Recovering log #3
+2023/09/07-02:26:44.179 14daf Level-0 table #5: started
+2023/09/07-02:26:44.298 14daf Level-0 table #5: 2784740 bytes OK
+2023/09/07-02:26:44.327 14daf Delete type=3 #2
+2023/09/07-02:26:44.327 14daf Delete type=0 #3

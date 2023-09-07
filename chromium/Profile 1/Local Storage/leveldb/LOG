@@ -1,6 +1,14 @@
-2023/09/05-12:48:04.655 3 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/Local Storage/leveldb/MANIFEST-000001
-2023/09/05-12:48:04.657 3 Recovering log #58
-2023/09/05-12:48:04.660 3 Reusing old log /home/aryan/.config/chromium/Profile 1/Local Storage/leveldb/000058.log 
-2023/09/05-12:48:18.771 3 Level-0 table #62: started
-2023/09/05-12:48:18.772 3 Level-0 table #62: 61007 bytes OK
-2023/09/05-12:48:18.773 3 Delete type=0 #58
+2023/09/06-17:19:56.407 3 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2023/09/06-17:19:56.408 3 Recovering log #61
+2023/09/06-17:19:56.410 3 Level-0 table #64: started
+2023/09/06-17:19:56.413 3 Level-0 table #64: 17002 bytes OK
+2023/09/06-17:19:56.416 3 Delete type=0 #61
+2023/09/06-17:19:56.417 5 Compacting 4@0 + 1@1 files
+2023/09/06-17:19:56.440 5 Generated table #66@0: 434 keys, 341350 bytes
+2023/09/06-17:19:56.441 5 Compacted 4@0 + 1@1 files => 341350 bytes
+2023/09/06-17:19:56.442 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/06-17:19:56.444 5 Delete type=2 #64
+2023/09/06-17:19:56.444 5 Delete type=2 #54
+2023/09/06-17:19:56.444 5 Delete type=2 #59
+2023/09/06-17:19:56.444 5 Delete type=2 #57
+2023/09/06-17:19:56.444 5 Delete type=2 #62
