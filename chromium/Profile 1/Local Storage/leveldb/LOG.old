@@ -1,6 +1,3 @@
-2023/09/05-12:48:04.655 3 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/Local Storage/leveldb/MANIFEST-000001
-2023/09/05-12:48:04.657 3 Recovering log #58
-2023/09/05-12:48:04.660 3 Reusing old log /home/aryan/.config/chromium/Profile 1/Local Storage/leveldb/000058.log 
-2023/09/05-12:48:18.771 3 Level-0 table #62: started
-2023/09/05-12:48:18.772 3 Level-0 table #62: 61007 bytes OK
-2023/09/05-12:48:18.773 3 Delete type=0 #58
+2023/09/07-14:53:41.750 3 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2023/09/07-14:53:41.753 3 Recovering log #65
+2023/09/07-14:53:41.756 3 Reusing old log /home/aryan/.config/chromium/Profile 1/Local Storage/leveldb/000065.log 

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $("#d1>p").css("color", "blue")
+            var p1 = document.createElement("p");
+            $(p1).html("New Para <span>Added</span> 1")
+            var p2 = document.createElement("p");
+            $(p2).html("New Para <span>Added</span> 2");
+            $("#d1>p").after($(p1), $(p2))
+            var str = $(p1).text() + "Modified";
+            $(p1).html(str);
+
+        })
+    </script>
+</head>
+
+<body>
+    <div id="d1">
+        <p>Initial Para</p>
+    </div>
+</body>
+
+</html>

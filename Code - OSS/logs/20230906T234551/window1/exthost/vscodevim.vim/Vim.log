@@ -1,7 +1,0 @@
-2023-09-06 23:45:53.992 [warning] Unable to find "$VIMRUNTIME/delmenu.vim" file for configuration.
-2023-09-06 23:45:54.003 [warning] Unable to find "$VIMRUNTIME/menu.vim" file for configuration.
-2023-09-06 23:45:54.040 [warning] Encountered an unrecognized mapping type: 'snor'
-2023-09-06 23:45:54.209 [info] Configuration changed
-2023-09-06 23:45:54.369 [warning] Unable to find "$VIMRUNTIME/delmenu.vim" file for configuration.
-2023-09-06 23:45:54.370 [warning] Unable to find "$VIMRUNTIME/menu.vim" file for configuration.
-2023-09-06 23:45:54.379 [warning] Encountered an unrecognized mapping type: 'snor'

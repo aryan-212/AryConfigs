@@ -6,33 +6,31 @@
             "file:///home/aryan/Coding/UNIX%20Notes": "__default__profile__",
             "file:///home/aryan/Coding/iVerilog": "__default__profile__",
             "file:///home/aryan/Coding/Tokens": "__default__profile__",
-            "file:///home/aryan/Coding": "__default__profile__"
+            "file:///home/aryan/Coding": "__default__profile__",
+            "file:///home/aryan/Coding/Web%20Development": "__default__profile__"
         },
-        "emptyWindows": {
-            "1694024219095": "__default__profile__",
-            "1694030055440": "__default__profile__",
-            "1694030177279": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "63aed7ab4797c67f657701a4d9445f393dc0c01f75251f24c85025c63f926634",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1694030177279"
+                "folderUri": "file:///home/aryan/Coding/Web%20Development"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/aryan/.config/Code - OSS/Backups/1694030177279",
+            "folder": "file:///home/aryan/Coding/Web%20Development",
+            "backupPath": "/home/aryan/.config/Code - OSS/Backups/f12bd67ca939c9cd8b8574fe514e490c",
             "uiState": {
                 "mode": 1,
-                "x": 967,
+                "x": 12,
                 "y": 52,
-                "width": 941,
+                "width": 1896,
                 "height": 1016
             }
         },
@@ -76,11 +74,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/Coding/Web%20Development",
+                                        "path": "/home/aryan/Coding/Web Development",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/Web Development"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -150,6 +158,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/Coding/Web%20Development/jquery.html",
+                                        "path": "/home/aryan/Coding/Web Development/jquery.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/Web Development/jquery.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/Coding/Web%20Development/jquery.html.html",
+                                        "path": "/home/aryan/Coding/Web Development/jquery.html.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/Web Development/jquery.html.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aryan/.config/ranger/ls.nthng",
+                                        "path": "/home/aryan/.config/ranger/ls.nthng",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/ranger/ls.nthng"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -229,39 +270,6 @@
                                     "label": "~/Coding/Data Structures/Stack/new.c"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aryan/.config/bspwm/sxhkdrc",
-                                        "path": "/home/aryan/.config/bspwm/sxhkdrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/bspwm/sxhkdrc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aryan/Coding/Tokens/gittoken.txt",
-                                        "path": "/home/aryan/Coding/Tokens/gittoken.txt",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Coding/Tokens/gittoken.txt"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aryan/Coding/iVerilog/alu.v",
-                                        "path": "/home/aryan/Coding/iVerilog/alu.v",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Coding/iVerilog/alu.v"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -317,6 +325,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -447,6 +462,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -642,7 +661,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -889,8 +909,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -899,8 +918,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1401,6 +1419,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1792,7 +1815,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

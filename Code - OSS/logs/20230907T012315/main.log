@@ -1,5 +1,0 @@
-2023-09-07 01:23:16.198 [info] update#setState disabled
-2023-09-07 01:23:16.225 [info] update#ctor - updates are disabled as there is no update URL
-2023-09-07 01:23:35.611 [error] CodeWindow: detected unresponsive
-2023-09-07 01:24:02.943 [error] CodeWindow: renderer process gone (reason: killed, code: 9)
-2023-09-07 01:24:03.982 [info] Extension host with pid 2778 exited with code: 0, signal: unknown.
