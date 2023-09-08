@@ -1,3 +1,6 @@
-2023/09/08-12:24:37.083 1375d Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2023/09/08-12:24:37.084 1375d Recovering log #141
-2023/09/08-12:24:37.089 1375d Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/000141.log 
+2023/09/08-19:19:18.285 4667 Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2023/09/08-19:19:18.285 4667 Recovering log #166
+2023/09/08-19:19:18.299 4667 Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/000166.log 
+2023/09/08-19:20:53.210 4668 Level-0 table #171: started
+2023/09/08-19:20:53.221 4668 Level-0 table #171: 2156068 bytes OK
+2023/09/08-19:20:53.224 4668 Delete type=0 #166

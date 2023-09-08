@@ -1,3 +1,10 @@
-2023/09/05-11:28:34.401 a765 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/05-11:28:34.401 a765 Recovering log #4
-2023/09/05-11:28:34.421 a765 Reusing old log /home/aryan/.config/chromium/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2023/09/08-16:01:18.750 4455 Reusing MANIFEST /home/aryan/.config/chromium/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/08-16:01:18.751 4455 Recovering log #4
+2023/09/08-16:01:18.801 4455 Reusing old log /home/aryan/.config/chromium/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2023/09/08-16:01:21.938 444a Level-0 table #8: started
+2023/09/08-16:01:21.960 444a Level-0 table #8: 1464505 bytes OK
+2023/09/08-16:01:21.961 444a Delete type=0 #4
+2023/09/08-16:01:22.931 444a Compacting 1@1 + 1@2 files
+2023/09/08-16:01:22.937 444a Generated table #9@1: 463 keys, 72669 bytes
+2023/09/08-16:01:22.937 444a Compacted 1@1 + 1@2 files => 72669 bytes
+2023/09/08-16:01:22.938 444a compacted to: files[ 0 0 1 0 0 0 0 ]

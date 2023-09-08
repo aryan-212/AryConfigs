@@ -1,3 +1,15 @@
-2023/09/08-12:23:20.913 12d71 Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2023/09/08-12:23:20.914 12d71 Recovering log #141
-2023/09/08-12:23:20.924 12d71 Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/000141.log 
+2023/09/08-18:58:33.491 1d4f Reusing MANIFEST /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2023/09/08-18:58:33.491 1d4f Recovering log #163
+2023/09/08-18:58:33.500 1d4f Reusing old log /home/aryan/.config/BraveSoftware/Brave-Browser/Default/Extension State/000163.log 
+2023/09/08-18:58:34.443 1d4e Level-0 table #167: started
+2023/09/08-18:58:34.475 1d4e Level-0 table #167: 2156068 bytes OK
+2023/09/08-18:58:34.480 1d4e Delete type=0 #163
+2023/09/08-18:58:34.481 1d4e Compacting 4@0 + 1@1 files
+2023/09/08-18:58:34.533 1d4e Generated table #168@0: 1 keys, 3408 bytes
+2023/09/08-18:58:34.534 1d4e Compacted 4@0 + 1@1 files => 3408 bytes
+2023/09/08-18:58:34.534 1d4e compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/08-18:58:34.535 1d4e Delete type=2 #156
+2023/09/08-18:58:34.535 1d4e Delete type=2 #162
+2023/09/08-18:58:34.535 1d4e Delete type=2 #159
+2023/09/08-18:58:34.535 1d4e Delete type=2 #164
+2023/09/08-18:58:34.535 1d4e Delete type=2 #167

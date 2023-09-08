@@ -1,0 +1,23 @@
+2023-09-08 18:50:01.174 [info] Log level: Info
+2023-09-08 18:50:01.174 [info] Validating found git in: "git"
+2023-09-08 18:50:01.174 [info] Using git "2.42.0" from "git"
+2023-09-08 18:50:01.174 [info] > git rev-parse --show-toplevel [6ms]
+2023-09-08 18:50:01.174 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-09-08 18:50:01.174 [info] Open repository: /home/aryan/.config
+2023-09-08 18:50:01.174 [info] > git config --get commit.template [5ms]
+2023-09-08 18:50:01.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-08 18:50:01.668 [info] > git check-ignore -v -z --stdin [5ms]
+2023-09-08 18:50:01.782 [info] > git show --textconv :bspwm/bspwmrc [14ms]
+2023-09-08 18:50:01.788 [info] > git ls-files --stage -- /home/aryan/.config/bspwm/bspwmrc [8ms]
+2023-09-08 18:50:01.803 [info] > git cat-file -s 05dea7531ada53653c5ad49c70ea904613858fd6 [3ms]
+2023-09-08 18:50:01.975 [info] > git status -z -uall [766ms]
+2023-09-08 18:50:02.044 [info] > git config --get commit.template [11ms]
+2023-09-08 18:50:02.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2023-09-08 18:50:02.292 [info] > git fetch [1151ms]
+2023-09-08 18:50:02.312 [info] > git status -z -uall [20ms] (cancelled)
+2023-09-08 18:50:02.314 [info] > git config --get commit.template [3ms]
+2023-09-08 18:50:02.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-08 18:50:02.501 [info] > git status -z -uall [162ms]
+2023-09-08 18:50:03.439 [info] > git ls-files --stage -- /home/aryan/.config/bspwm/bspwmrc [4ms]
+2023-09-08 18:50:03.448 [info] > git cat-file -s 05dea7531ada53653c5ad49c70ea904613858fd6 [2ms]
+2023-09-08 18:50:03.461 [info] > git show --textconv :bspwm/bspwmrc [3ms]

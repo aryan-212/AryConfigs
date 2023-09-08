@@ -1,5 +1,5 @@
 {
-   "checksum": "e1ac66400c051bbb05f62648902a87ed",
+   "checksum": "33ed6a2204bee6b313193badd9c44d8d",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -13,10 +13,21 @@
             "name": "ChatGPT",
             "type": "url",
             "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13338653652358806",
+            "date_last_used": "0",
+            "guid": "d1fe656f-6c5b-4522-9c8c-3a4415fd4670",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(30) How to Fix Audio Crackling Issues on Ubuntu - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=v3Eyu4a1XD4"
          } ],
          "date_added": "13338138366495114",
          "date_last_used": "0",
-         "date_modified": "13338138462984758",
+         "date_modified": "13338653652358806",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks",
